@@ -1,0 +1,14 @@
+# ktop configuration
+
+# UI tick rate in milliseconds
+tick_rate_ms = 250
+
+[git]
+# How often to poll git repos (seconds)
+interval_secs = 5
+
+# List of git repository paths to monitor
+repos = [
+    # "/path/to/your/repo1",
+    # "/path/to/your/repo2",
+]
